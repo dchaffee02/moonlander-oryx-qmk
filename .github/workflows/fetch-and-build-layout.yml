@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
     inputs:
       layout_id:
-        description: "Layout id available in URL https://configure.zsa.io/voyager/layouts/[ID_IS_HERE]/latest"
+        description: "Layout id available in URL https://configure.zsa.io/moonlander/layouts/[ID_IS_HERE]/latest"
         required: true
-        default: "g7jjw"
+        default: "nDzR0"
       layout_geometry:
-        description: "Keyboard type"
+        description: "Moonlander"
         type: choice
         options:
           - voyager
