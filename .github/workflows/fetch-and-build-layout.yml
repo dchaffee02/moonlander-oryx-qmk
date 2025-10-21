@@ -4,24 +4,12 @@ on:
   workflow_dispatch:
     inputs:
       layout_id:
-        description: "Layout id available in URL https://configure.zsa.io/moonlander/layouts/[ID_IS_HERE]/latest"
+        description: "Layout id available in URL https://https://configure.zsa.io/moonlander/layouts/nDzR0/latest/0"
         required: true
         default: "nDzR0"
       layout_geometry:
-        description: "Moonlander"
-        type: choice
-        options:
-          - voyager
-          - moonlander
-          - ergodox_ez
-          - ergodox_ez/m32u4/glow
-          - ergodox_ez/m32u4/shine
-          - ergodox_ez/stm32
-          - ergodox_ez/stm32/glow
-          - ergodox_ez/stm32/shine
-          - planck_ez
-          - planck_ez/glow
-        default: voyager
+        description: "zsa moonlander"
+        default: moonlander
 
 permissions:
   contents: write
